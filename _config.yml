@@ -116,9 +116,9 @@ analytics:
 # Site Author
 author:
   name             : "turtleneck"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I hope we get the answer here."
-  location         : "Korea"
+  avatar           : # path of avatar image, e.g. "C:\Users\LeeJinJu\Desktop\t8QzFFa2_400x400.jpg"
+  bio              : "I'll study hard!"
+  location         : "South Korea"
   email            : "wlswn6913@gmail.com"
   links:
     - label: "Email"
