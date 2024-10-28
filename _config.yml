@@ -116,8 +116,7 @@ analytics:
 # Site Author
 author:
   name             : "turtleneck"
-  avatar           : # path of avatar image, e.g. "![t8QzFFa2_400x400](https://github.com/user-attachments/assets/17117dac-b45a-475d-a15d-08b5089be00a)
-"
+  avatar           : # path of avatar image, e.g. "![cat](https://github.com/user-attachments/assets/3d9f9eed-59a0-4605-81bc-90139d13642a)"
   bio              : "I'll study hard!"
   location         : "South Korea"
   email            : "wlswn6913@gmail.com"
