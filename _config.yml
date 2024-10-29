@@ -116,7 +116,7 @@ analytics:
 # Site Author
 author:
   name             : "turtleneck"
-  avatar           : "C:\Users\LeeJinJu\Desktop\images\cat.jpg" # path of avatar image, e.g. 
+  avatar           : "/assets/cat.jpg" 
   bio              : "I'll study hard!"
   location         : "South Korea"
   email            : "wlswn6913@gmail.com"
