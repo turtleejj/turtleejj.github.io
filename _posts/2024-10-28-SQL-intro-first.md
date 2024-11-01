@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title : "Bigquery(SQL) - 데이터 탐색"
 tags : [github, blog]
 comments : true
@@ -33,4 +33,8 @@ toc_sticky: true
 *#데이터의 기간*  
 *#사용할 테이블*  
 *#join KEY : 연결할 수 있는 것*  
-*#데이터 특징*  
+*#데이터 특징*
+
+----
+241101
+tags, comments, toc, toc_sticky 옵션 추가 
