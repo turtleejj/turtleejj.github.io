@@ -38,6 +38,7 @@ toc_sticky: true
 ----
 241101
 tags, comments, toc, toc_sticky 옵션 추가 
+
 ----
 241120
 서식 수정, comments 적용안됌 ..
