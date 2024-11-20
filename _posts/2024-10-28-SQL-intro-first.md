@@ -2,6 +2,7 @@
 layout: single
 title : "Bigquery(SQL) - 데이터 탐색"
 tags : [github, blog]
+categories : SQL
 comments : true
 toc : true
 toc_sticky: true
@@ -12,19 +13,21 @@ toc_sticky: true
 1. 데이터 탐색(SELECT, FROM, WHERE)  
   * 기초 내용이라 생략  
 
+
 2. 집계(GROUP BY + HAVING + SUM/COUNT)
   * 집계함수는 **GROUP BY** 사용  
   * **DISTINCT** : 중복 제거 (= GROUP BY)  
-  * WHERE/HAVING 차이  
-      - **WHERE** : 테이블에 바로 조건 적용 (들여쓰기 적용 안됌)  
-      - **HAVING** : GROUP BY 후 조건 적용 (들여쓰기 적용 안됌)  
-  * 서브 쿼리 : SELECT 문 내에 존재하는 SELECT 쿼리  
-      - 서브쿼리 바깥에서 WHERE 조건 설정 = 서브쿼리에서 HAVING 조건 설정  
+  * WHERE/HAVING 차이
+    - **WHERE** : 테이블에 바로 조건 적용
+    - **HAVING** : GROUP BY 후 조건 적용  
+  * 서브 쿼리 : SELECT 문 내에 존재하는 SELECT 쿼리
+    - 서브쿼리 바깥에서 WHERE 조건 설정 = 서브쿼리에서 HAVING 조건 설정  
   * WHERE **IN** (= OR) :  
-    ex) WHERE salary IN (1000, 700, 24000)  
-      - 괄호 안에 있는 value가 있는 row만 추출  
+    ex) WHERE salary IN (1000, 700, 24000)
+    - 괄호 안에 있는 value가 있는 row만 추출  
   * **COUNTIF**(조건)  
   ex) COUNTIF(칼럼 = "3")  
+
   
 3. 쿼리 작성 전 고려사항
 
